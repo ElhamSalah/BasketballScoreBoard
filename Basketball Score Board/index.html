@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scored Board</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="section-1">
+                <h1>HOME</h1>
+                <p class="score" id="Home-Score">0</p>
+                <div class="add-point">
+                    <button id="add-one-home" onclick="HomeAddOne()">+1</button>
+                    <button id="add-two-home" onclick="HomeAddTwo()">+2</button>
+                    <button id="add-three-home" onclick="HomeAddThree()">+3</button>
+                </div>
+            </div>
+            <div class="section-2">
+                <!-- <p class="score" id="set-time">00:00</p> -->
+              <div class="btns">
+              
+                <button id="reset-btn" onclick="reset()">Reset</button>
+              </div>
+            </div>
+            <div class="section-3">
+                <h1>GUEST</h1>
+                <p class="score" id="Guest-Score">0</p>
+                <div class="add-point">
+                    <button id="add-one-guest" onclick="GuestAddOne()">+1</button>
+                    <button id="add-two-guest" onclick="GuestAddTwo()">+2</button>
+                    <button id="add-three-guest" onclick="GuestAddThree()">+3</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
